@@ -9699,7 +9699,33 @@
         "mode": "chat",
         "supports_tool_choice": true
     },
-    "deepinfra/google/gemma-3-12b-it": {
+    "deepinfra/google/gemini-3-flash-preview-1": {
+    "max_tokens": 8192,
+    "max_input_tokens": 8192,
+    "max_output_tokens": 8192,
+    "input_cost_per_token": 0.0008,
+    "output_cost_per_token": 0.0012,
+    "litellm_provider": "deepinfra",
+    "mode": "chat",
+    "display_name": "Gemini 3 Flash Preview",
+    "model_vendor": "Google DeepMind",
+    "model_version": "3-flash-preview",
+    "supports_tool_choice": true
+},
+"deepinfra/google/gemini-3-flash-preview-2": {
+    "max_tokens": 16384,
+    "max_input_tokens": 16384,
+    "max_output_tokens": 16384,
+    "input_cost_per_token": 0.0010,
+    "output_cost_per_token": 0.0015,
+    "litellm_provider": "deepinfra",
+    "mode": "chat",
+    "display_name": "Gemini 3 Flash Preview Extended",
+    "model_vendor": "Google DeepMind",
+    "model_version": "3-flash-preview-ext",
+    "supports_tool_choice": true
+},
+  "deepinfra/google/gemma-3-12b-it": {
         "max_tokens": 131072,
         "max_input_tokens": 131072,
         "max_output_tokens": 131072,
